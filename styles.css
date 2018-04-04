@@ -1,0 +1,150 @@
+/*****  resets  *****/
+* {
+  box-sizing: border-box;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+/*****  styling the header  *****/
+.header {
+  display: flex;
+  flex-direction: row;
+  felx-wrap: wrap;
+  margin-left: 1em;
+  margin-right: 1em;
+  border-bottom: 1px solid grey;
+}
+/* .header .two {
+  margin: 2em;
+} */
+body {
+  font-family: 'Open Sans', sans-serif;
+   color: #4d4d4d
+}
+/***** Create 6 unequal columns head of page *****/
+.one {
+  flex: 15%;
+  background-color: white;
+}
+.two {
+  padding-top: 2em;
+  padding-left: 2em;
+  flex: 40%;
+}
+.three {
+  flex: 5%;
+}
+.four {
+  flex: 30%;
+}
+.five {
+  flex: 5%;
+}
+.six {
+  flex: 5%;
+  background-color: #da4532;
+  padding-top: 0.25em;
+  padding-left: 0.5em;
+  font-size: 2em;
+  color: white;
+}
+#logo {
+  max-width:100%;
+  max-height:100%;
+}
+
+/***** styling the search bar *****/
+.two input {
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  border: 0em solid;
+  background-color: transparent;
+}
+.three {
+  text-align: center;
+}
+#number_box {
+margin-top:1em;
+}
+.three p {
+  background-color: #da4532;
+}
+#apps_icon {
+  margin-top: 1em;
+}
+/*****  3 unequal columns main section of the body ******/
+.main {
+  display: flex;
+  flex-direction: row;
+  felx-wrap: wrap;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.sidenav {
+  flex: 15%;
+  background-color: #2a2f32;
+  color: white;
+  text-align: left;
+  list-style: none;
+  text-decoration: none;
+  padding-top:2em;
+  padding-right: 1em;
+  font-size: 0.8em;
+}
+.sidenav ul {
+  margin: 2em;
+  padding: 0;
+}
+.sidenav li {
+  margin: 1em;
+}
+.sidenav  a {
+  color: #6a757c;
+}
+.sidenav a:active {
+  color: white;
+}
+.sidenav a:hover {
+  color: white;
+}
+.sidenav .title {
+  font-size: 0.8em;
+}
+#results {
+  margin-left: 2em;
+  margin-top: 15em;
+  font-size: 0.9em;
+}
+#results.number {
+  color:red;
+}
+.middle {
+  flex: 40%;
+  padding: 2em;
+}
+.web_result {
+  font-size: 1.2em;
+  color: #2b7bb9;
+  margin-bottom: -0.5;
+}
+#first_web_result{
+  font-size: 1.5em;
+}
+.web p {
+  font-size: 0.7em;
+  margin-bottom: 2.5em;
+}
+.read_more {
+  color: #b4c3d0;
+}
+.rightpanle {
+  flex: 45%;
+  padding-top: 2em;
+  padding-left: 4em;
+
+}
